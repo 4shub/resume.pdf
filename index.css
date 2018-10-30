@@ -1,0 +1,206 @@
+/* Everything is scaled up 1.5x */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    height: 100%;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow: auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 15px;
+}
+
+.inner {
+    display: flex;
+    flex-direction: row;
+}
+
+.grow {
+    flex: 1;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.actions {
+    display: flex;
+}
+
+.resume,
+.helper {
+    min-width: 12.75in;
+    max-width: 12.75in;
+}
+
+.resume {
+    min-height: 16.5in;
+    max-height: 16.5in;
+    margin: 0 15px 15px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 0 0.75in;
+    box-shadow: 1px 1px 4px 2px rgba(0,0,0,.4);
+
+    justify-content: center;
+}
+
+.helper {
+    display: flex;
+    color: #fff;
+    padding: 25px 0;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-text {
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2  {
+    font-size: 21px;
+    margin: 0 0 20px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-weight: 500;
+}
+
+.role {
+    font-size: 16px;
+}
+
+
+ul {
+    list-style-type: square;
+}
+
+.role {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.work-experience {
+    padding-left: 0;
+    flex: 1;
+}
+
+.resume-inner {
+}
+
+.position {
+    margin: 10px 0 25px;
+}
+
+.job {
+    margin-top: 10px;
+}
+
+ul {
+    padding: 0 25px;
+    line-height: 1.8;
+    margin: 7.5px 0;
+}
+
+.helper {
+
+}
+
+.actions > * {
+    font-weight: 500;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.actions > *:hover {
+    text-decoration: underline;
+}
+
+.qr-code {
+    width: 100px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    width: 350px;
+    padding-left: 40px;
+}
+
+.skills {
+    list-style-type: none;
+}
+
+.contact-item {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact-item span {
+    font-weight: 500;
+}
+
+a {
+    color: inherit;
+}
+
+aside article {
+    margin-bottom: 30px;
+}
+
+
+.online-link {
+    margin-bottom: 0;
+}
+
+.skills-list {
+    margin-bottom: 15px;
+}

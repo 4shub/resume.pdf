@@ -1,0 +1,90 @@
+html, body {
+    font-size: 8pt;
+}
+
+.grow {
+    display: none;
+}
+
+
+h1 {
+    font-size: 12pt;
+}
+
+h2  {
+    font-size: 11pt;
+    margin: 0 0 9pt;
+}
+
+h3 {
+    font-size: 9pt;
+}
+
+.role {
+    font-size: 8pt;
+}
+
+.position {
+    margin: 8pt 0 18pt;
+}
+
+.job {
+    margin-top: 8pt;
+}
+
+.job-description {
+    padding: 0 12pt;
+    line-height: 1.8;
+    margin: 4pt 0;
+}
+
+.position {
+    margin: 5pt 0 5pt;
+}
+
+.resume {
+    min-width: 8.5in;
+    max-width: 8.5in;
+    min-height: 11in;
+    max-height: 11in;
+    margin: 0;
+    padding: 0 0.5in;
+}
+
+
+.work-experience {
+    padding-left: 0;
+}
+
+
+aside {
+    width: 250px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    margin-top: 30px;
+}
+
+@page {
+    margin: 1px;
+}
+
+.resume {
+    justify-content: flex-start;
+}
+
+.qr-code {
+    width: 75px;
+}
+
+@media print {
+    html, body {
+        height: 99%;
+    }
+}
+
+
